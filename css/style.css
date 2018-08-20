@@ -8,15 +8,21 @@ body{
 .bg-yellow{
     background-color: #f7b617;
 }
+
 .btn-yellow{
     background-color: #f7b617;
 }
+
 .titles{
     font-size: 1.5em;
 }
 
 .text{
     font-size: 1.2em;
+}
+
+.little-text{
+    font-size: 1.1em;
 }
 
 .btn-white{
@@ -27,6 +33,16 @@ body{
     width: 30%!important;
 }
 
+.border-w{
+    border: 3px solid white!important;
+}
+
+.form-w{
+    width: 80%;
+    border: 1px solid white;
+    background-color: inherit;
+    border-radius: 10px;
+}
 header.masthead {
   position: relative;
   overflow: hidden;
@@ -60,7 +76,6 @@ section.masthead .masthead-content {
   z-index: 1;
   position: relative;
   margin: 0 10px;
-  border: 2px solid white;
 }
 
 section.masthead-img {
