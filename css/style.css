@@ -13,6 +13,10 @@ body{
     font-size: 1.5em;
 }
 
+.text{
+    font-size: 1.2em;
+}
+
 .btn-white{
     background-color: #fff;
 }
@@ -54,8 +58,19 @@ section.masthead .masthead-content {
   z-index: 1;
   position: relative;
   margin: 0 10px;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
+section.masthead-img {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('../images/conduce.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
 
