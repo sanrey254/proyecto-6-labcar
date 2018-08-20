@@ -36,6 +36,10 @@ body{
     width: 30%!important;
 }
 
+.w-5{
+    width: 8%;
+}
+
 .border-w{
     border: 3px solid white!important;
 }
@@ -114,5 +118,4 @@ footer.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-
 
