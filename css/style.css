@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-yellow{
+    background-color: #f7b617;
+}
+
+.titles{
+    font-size: 1.5em;
+}
+.btn-white{
+    background-color: #fff;
+}
+.w-30{
+    width: 30%!important;
+}
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('../images/taxi.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
