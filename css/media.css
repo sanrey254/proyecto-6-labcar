@@ -1,0 +1,9 @@
+
+@media (min-width: 768px) { 
+    .w-40{
+        width: 40%;
+    }
+    .w-5 {
+        width: 14%;
+    }
+}

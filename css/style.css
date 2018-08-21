@@ -31,7 +31,9 @@ body{
 .btn-white{
     background-color: #fff;
 }
-
+.w-80{
+    width: 80%;
+}
 .w-30{
     width: 30%!important;
 }
@@ -42,6 +44,10 @@ body{
 
 .border-w{
     border: 3px solid white!important;
+}
+
+.w-40{
+    width: 100%;
 }
 
 .form-w{
