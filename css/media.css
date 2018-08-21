@@ -6,6 +6,9 @@
     .w-5 {
         width: 14%;
     }
+    .w-80 {
+        width: 50%;
+    }
     section.masthead .masthead-content {
         margin-right: 20%;
         margin-left: 0px;
@@ -14,10 +17,14 @@
         border-left: none!important;
     }
     .padding-text{
-        padding-right: 10rem !important;
+        padding-right: 6rem !important;
     }
 
     section.masthead-img .masthead-content{
         margin-left: 800px;
+    }
+
+    .little-text{
+        font-size: 0.8em;
     }
 }
