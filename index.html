@@ -37,11 +37,54 @@
                     <a class="nav-link" href="#">Conduce</a>
                 </li>
                 <li class="nav-item active mr-md-2">
-                    <a class="nav-link" href="#">Inicia Sesión</a>
+                    <button class="no-btn nav-link" data-toggle="modal" data-target="#modalLogin">Inicia Sesión</button>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- Modal Login -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="modalLoginLabel">
+                        <img src="images/user.png" class="img-fluid w-30">
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mx-5 my-3 bg-ligth-white">
+                        <div class="card-body">
+                            <div class="form-group my-2">
+                                <label class="sr-only" for="userName">UserName</label>
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-user"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control micro-text" id="userName" placeholder="User name" required>
+                                </div>
+                            </div>
+                            <div class="form-group my-2">
+                                <label class="sr-only" for="password">Password</label>
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-suitcase"></i></div>
+                                    </div>
+                                    <input type="password" class="form-control micro-text" id="password" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-orange text-white">LOGIN</button>
+                                <p class="micro-text mt-3">Forgot password? <a href="#" class="text-red"> Click Here</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="masthead text-center">
         <div class="masthead-content">
             <div class="container text-left text-white bg-yellow ml-5 mr-0 py-5 pl-4 mr-md-0 ml-md-auto w-40 pl-md-5">

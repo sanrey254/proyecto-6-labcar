@@ -34,6 +34,11 @@ a, a:hover{
     text-decoration: none;
 }
 
+.no-btn{
+    background-color: inherit;
+    border: none;
+}
+
 .btn-white{
     background-color: #fff;
 }
@@ -70,6 +75,22 @@ a, a:hover{
 hr{
     color: #ffff;
     border: 1px solid;
+}
+
+.modal-content{
+    background-color: #08ac9d;
+}
+
+.bg-ligth-white{
+    background-color: #f5f5f5;
+}
+
+.btn-orange{
+    background-color: #f0ad4e;
+}
+
+.text-red{
+    color: #b72b2b;
 }
 
 header.masthead {
