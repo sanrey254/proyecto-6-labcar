@@ -6,4 +6,14 @@
     .w-5 {
         width: 14%;
     }
+    section.masthead .masthead-content {
+        margin-right: 20%;
+        margin-left: 0px;
+    }
+    .border-w{
+        border-left: none!important;
+    }
+    .padding-text{
+        padding-right: 10rem !important;
+    }
 }
