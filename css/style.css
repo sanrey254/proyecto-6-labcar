@@ -105,13 +105,16 @@ section.masthead .masthead-content, footer.masthead .masthead-content {
 section.masthead-img {
   position: relative;
   overflow: hidden;
-  padding-top: calc(5rem + 72px);
-  padding-bottom: 5rem;
   background-image: url('../images/conduce.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+}
+section.masthead-img .masthead-content{
+    padding-top: calc(5rem + 72px);
+    padding-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.56);
 }
 
 footer.masthead {

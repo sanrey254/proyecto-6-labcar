@@ -16,4 +16,8 @@
     .padding-text{
         padding-right: 10rem !important;
     }
+
+    section.masthead-img .masthead-content{
+        margin-left: 800px;
+    }
 }
