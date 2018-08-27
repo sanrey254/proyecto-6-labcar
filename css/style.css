@@ -77,8 +77,21 @@ hr{
     border: 1px solid;
 }
 
-.modal-content{
+.px-6{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.no-border-bottom{
+    border-bottom: none;
+}
+
+.modal-content-green{
     background-color: #08ac9d;
+}
+
+.modal-content-gray{
+    background-color: #a9a9a9;
 }
 
 .bg-ligth-white{
@@ -157,7 +170,7 @@ footer.masthead {
 }
 
 /* pseudo-elemento */
-::placeholder { 
+.white-placeholder::placeholder { 
     color: #fff; 
 }
 

@@ -45,7 +45,7 @@
     <!-- Modal Login -->
     <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content modal-content-green">
                 <div class="modal-header">
                     <h5 class="modal-title text-center" id="modalLoginLabel">
                         <img src="images/user.png" class="img-fluid w-30">
@@ -55,7 +55,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="card mx-5 my-3 bg-ligth-white">
+                    <div class="card mx-md-5 my-3 mx-3 bg-ligth-white">
                         <div class="card-body">
                             <div class="form-group my-2">
                                 <label class="sr-only" for="userName">UserName</label>
@@ -96,13 +96,40 @@
                 <h1 class="mb-0 titles d-md-block d-none d-sm-none d-lg-block">Disfruta del viaje</h1>
                 <h1 class="mb-0 titles d-md-block d-none d-sm-none d-lg-block">Eres dueño de tu tiempo</h1>
                 <h2 class="mb-0 d-md-block d-none d-sm-none d-lg-block text mt-2">Viaja con <img class="img-fluid w-5" src="images/logoBlanco.png" alt="Logo blanco"></h2>
-                <button class="btn btn-white mt-3 mb-0 mb-md-3">REGISTRATE</button>
+                <button class="btn btn-white mt-3 mb-0 mb-md-3" data-toggle="modal" data-target="#modalRegister">REGISTRATE</button>
                 <h4 class="mb-0 d-md-block d-none d-sm-none d-lg-block text mt-2 text-center">o bien</h4>
                 <button class="btn btn-white mt-3 mb-0 d-md-block d-none d-sm-none d-lg-block">Coviértete en un conductor</button>
 
             </div>
         </div>
     </header>
+    <!-- Modal Registrate -->
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-content-gray">
+                <div class="modal-header no-border-bottom">
+                    <h5 class="modal-title text-center" id="modalRegisterLabel">
+                        <button class="btn btn-dark px-6 ml-3 small-text">Ya tienes una cuenta?</button>
+                        <p class="micro-text mt-1">O CREA UNA CUENTA NUEVA</p>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" placeholder="Apellido">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
     <section class="masthead">
         <div class="masthead-content border-w">
             <!--Mobile-->
@@ -134,20 +161,25 @@
         </div>
     </section>
     <section class="masthead">
-        <div class="masthead-content">
-            <div class="row">
-                <div class="col-12 col-md-6 ml-md-5">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div>
                     <h1 class="text-center text-white titles mt-2">Tarifas</h1>
                     <h4 class="text mt-3 text-white ml-3">Consulta las tarifas LabCar aquí:</h4>
                     <div class="mt-4">
-                        <img src="images/shape.png" class="img-fluid ml-3"> <input type="text" class="form-w ml-2 p-2 micro-text" placeholder="Ingrese su punto de partida">
+                        <img src="images/shape.png" class="img-fluid ml-3"> <input type="text" class="form-w ml-2 p-2 micro-text white-placeholder" placeholder="Ingrese su punto de partida">
                     </div>
                     <div class="mt-4">
-                        <img src="images/shape2.png" class="img-fluid ml-3"> <input type="text" class="form-w ml-2 micro-text p-2" placeholder="Ingrese su destino">
+                        <img src="images/shape2.png" class="img-fluid ml-3"> <input type="text" class="form-w ml-2 micro-text p-2 white-placeholder" placeholder="Ingrese su destino">
                     </div>
                     <div class="text-center my-4">
                         <button class="btn btn-white">Trazar ruta</button>
                     </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="px-3 px-md-0 mt-md-2">
+                    <img src="images/map.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -213,5 +245,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 </body>
-<script src="js/main.js"></script>
+
 </html>
